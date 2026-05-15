@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600">
+  <rect width="900" height="1600" fill="#101a30"/>
+  <circle cx="450" cy="430" r="260" fill="#00C9A1" opacity=".18"/>
+  <path d="M215 980C250 650 340 470 450 470s200 180 235 510Z" fill="#172744"/>
+  <path d="M335 390l-70-155 155 74M565 390l70-155-155 74" fill="#0b1326" stroke="#78d5ff" stroke-width="18" stroke-linejoin="round"/>
+  <circle cx="375" cy="420" r="22" fill="#00C9A1"/>
+  <circle cx="525" cy="420" r="22" fill="#00C9A1"/>
+  <path d="M380 545c48 36 92 36 140 0" fill="none" stroke="#f7f9ff" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="1240" fill="#f7f9ff" font-family="Arial, sans-serif" font-size="76" font-weight="900" text-anchor="middle">MY CAT</text>
+  <text x="450" y="1328" fill="#c9c4ff" font-family="Arial, sans-serif" font-size="76" font-weight="900" text-anchor="middle">BOYFRIEND</text>
+</svg>
+

@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600">
+  <rect width="900" height="1600" fill="#070b18"/>
+  <circle cx="450" cy="560" r="310" fill="none" stroke="#78d5ff" stroke-width="22" opacity=".42"/>
+  <circle cx="450" cy="560" r="210" fill="none" stroke="#00C9A1" stroke-width="10" opacity=".66"/>
+  <path d="M170 1180 450 210l280 970Z" fill="#18143c" opacity=".8"/>
+  <path d="M260 720h380M330 820h240M390 920h120" stroke="#d64cff" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="1240" fill="#f7f9ff" font-family="Arial, sans-serif" font-size="76" font-weight="900" text-anchor="middle">CHROMA</text>
+  <text x="450" y="1328" fill="#00C9A1" font-family="Arial, sans-serif" font-size="76" font-weight="900" text-anchor="middle">VOID</text>
+</svg>
+

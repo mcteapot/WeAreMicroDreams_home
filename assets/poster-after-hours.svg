@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600">
+  <rect width="900" height="1600" fill="#0d182f"/>
+  <rect x="170" y="190" width="560" height="820" rx="60" fill="#101f3b" stroke="#78d5ff" stroke-width="10" opacity=".92"/>
+  <circle cx="450" cy="520" r="160" fill="#00C9A1" opacity=".14"/>
+  <path d="M330 560c60-100 180-100 240 0-60 86-180 86-240 0Z" fill="none" stroke="#f7f9ff" stroke-width="18"/>
+  <circle cx="450" cy="560" r="42" fill="#78d5ff"/>
+  <path d="M250 940h400M310 1030h280" stroke="#00C9A1" stroke-width="16" stroke-linecap="round"/>
+  <text x="450" y="1240" fill="#f7f9ff" font-family="Arial, sans-serif" font-size="66" font-weight="900" text-anchor="middle">AFTER HOURS</text>
+  <text x="450" y="1328" fill="#c9c4ff" font-family="Arial, sans-serif" font-size="76" font-weight="900" text-anchor="middle">ORACLE</text>
+</svg>
+
