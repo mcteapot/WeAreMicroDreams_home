@@ -61,7 +61,7 @@ const parseCsv = (text) => {
   );
 };
 
-const createFeaturedCard = ({ image, description, title, url }) => {
+const createFeaturedCard = ({ image, description, title }) => {
   const card = document.createElement("article");
   card.className = "poster-card";
 
@@ -78,14 +78,7 @@ const createFeaturedCard = ({ image, description, title, url }) => {
   const titleElement = document.createElement("h3");
   titleElement.textContent = title;
 
-  const link = document.createElement("a");
-  link.className = "button button-small";
-  link.href = url;
-  link.target = "_blank";
-  link.rel = "noopener";
-  link.textContent = "Learn More";
-
-  meta.append(descriptionElement, titleElement, link);
+  meta.append(descriptionElement, titleElement);
   card.append(poster, meta);
 
   return card;
@@ -99,13 +92,13 @@ const renderFeaturedSeries = async () => {
   const csvUrl = featuredSeriesRail.dataset.featuredSeries;
 
   try {
-    const response = await fetch(csvUrl);
+    const response = await fetch(`${csvUrl}?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`Unable to load ${csvUrl}`);
     }
 
     const series = parseCsv(await response.text())
-      .filter(({ image, description, title, url }) => image && description && title && url)
+      .filter(({ image, description, title }) => image && description && title)
       .slice(0, 4);
 
     if (series.length === 0) {

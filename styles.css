@@ -138,7 +138,7 @@ img {
 }
 
 .hero-content {
-  width: min(820px, 100%);
+  width: min(1180px, 100%);
   text-align: center;
 }
 
@@ -162,7 +162,7 @@ p {
 h1 {
   margin-bottom: 1.3rem;
   color: #d8ddff;
-  font-size: clamp(4rem, 11vw, 9rem);
+  font-size: clamp(3.2rem, 8.4vw, 7.25rem);
   font-weight: 900;
   line-height: 0.86;
   text-transform: uppercase;
