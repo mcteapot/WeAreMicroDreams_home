@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Static Site"
+  short_description: "Start and verify this static GitHub Pages site locally."
+  default_prompt: "Run the We Are Micro Dreams static site locally and verify it loads."

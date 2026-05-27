@@ -1,6 +1,6 @@
-# We Are Micro Dreams
+# We Are Microdreams.ai
 
-A cinematic, single-page landing page for **We Are Micro Dreams**, an AI-native vertical content studio.
+A cinematic, single-page landing page for **We Are Microdreams.ai**, an AI-native vertical content studio.
 
 The site is built as a lightweight static GitHub Pages project with plain HTML, CSS, and minimal JavaScript. There is no framework, package manager, bundler, or build step.
 
